@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-ts5-nameof",
-  "version": "1.0.3",
+  "version": "0.0.1",
   "description": "Give Vite the ability to resolve 'nameof' calls in TypeScript",
   "main": "lib/index.js",
   "keywords": [
@@ -13,16 +13,6 @@
     "vitejs",
     "awesome"
   ],
-  "author": {
-    "name": "Christopher Quadflieg",
-    "email": "chrissi92@hotmail.de",
-    "url": "https://github.com/Shinigami92"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Shinigami92/vite-plugin-ts5-nameof.git"
-  },
-  "bugs": "https://github.com/Shinigami92/vite-plugin-ts5-nameof/issues",
   "license": "MIT",
   "files": [
     "lib",
@@ -50,11 +40,8 @@
     "prettier": "2.8.1",
     "prettier-plugin-organize-imports": "~3.2.1",
     "rimraf": "~3.0.2",
-    "typescript": "~4.9.4",
-    "vite": "~4.0.0"
-  },
-  "peerDependencies": {
-    "vite": "^2.0.0 || ^3.0.0 || ^4.0.0"
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
   },
   "packageManager": "pnpm@7.18.1"
 }
